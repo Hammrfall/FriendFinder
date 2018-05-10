@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Survey</title>
+	<!--requires the reset css to be in folder- not necessary if using bootstrap  -->
+	<!-- <link rel="stylesheet" href="assets/css/reset.css" type="text/css"> -->
+	<!--to use bootstrap 4.0  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	    crossorigin="anonymous">
+	<!--references your own css sheet  -->
+	<!-- <link rel="stylesheet" href="assets/css/style.css" type = "text/css"> -->
+
+</head>
+
+<body>
+	<h1 id="title">Survey</h1>
+	<div class="container">
+		<form role="form" id="survey">
+			<!-- Name input -->
+			<label for="name">Your name (req): </label>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">First and last name</span>
+				</div>
+				<input type="text" class="form-control" id="name" placeholder="John Smith" aria-describedby="basic-addon3">
+			</div>
+			<!-- Picture URL input -->
+			<label for="picture">URL of picture file (req): </label>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">Picture URL</span>
+				</div>
+				<input type="text" class="form-control" id="picture" placeholder="http://me.jpg" aria-describedby="basic-addon3">
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 1</h3>
+				<br>
+				<br>
+				<h4>I think Star Wars is far better sci-fi than Star Trek</h4>
+				<hr>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q1">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 2</h3>
+				<h4>I think the Harry Potter movies are masterpieces</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q2">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 3</h3>
+				<h4>I think, in general, movies are far better than the books they are based on</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q3">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 4</h3>
+				<h4>I prefer the comic book versions of superheroes over the cinematic ones</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q4">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 5</h3>
+				<h4>I think Lord of the Rings is an epic movie series</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q5">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 6</h3>
+				<h4>I would rather play Settlers of Catan rather than Monopoly</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q6">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 7</h3>
+				<h4>I have attended/want to attend a con</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q7">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 8</h3>
+				<h4>I regularly play video games</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q8">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 9</h3>
+				<h4>I can't stand to hear someone incorrectly describe my fandom</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q9">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-6">
+				<h3>Question 10</h3>
+				<h4>I have read a lot of books in the sci-fi/ fantasy genres</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="q10">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			<hr>
+
+
+			<button type="button" id="submit" class="btn btn-info">Submit</button>
+		</form>
+	</div>
+
+
+	<div id="modal1" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content container">
+				<h1>Your Best match:</h1>
+				<p id="matchname"></p>
+				<p id="matchpicture"></p>
+			</div>
+
+		</div>
+	</div>
+
+	<!--loads jquery  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	  crossorigin="anonymous"></script>
+	<script src="/script"></script>
+</body>
+
+</html>
