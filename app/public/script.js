@@ -14,8 +14,6 @@ $('#submit').on("click", function () {
             scores: answersArray
         };
 
-        //var currentURL = window.location.origin;
-        //$.post(currentURL + "/api/friends", newFriend,
         $.post("/api/friends",newFriend,
         function (data) {
             $("#matchname").text("Name: " + data.name)
